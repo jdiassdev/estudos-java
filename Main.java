@@ -92,10 +92,31 @@ public class Main {
 
           int count = 0;
           while (count < 10) {
-                System.out.println("Estou em exec");
-                count++;
-                
+               System.out.println("Estou em exec");
+               count++;
+
           }
 
+          /* Casting de tipos de dados */
+
+          double result = 0.0;
+          System.out.println(result);
+          int resultInt = (int) result;
+          System.out.println(resultInt);
+
+          int myInt = 10;
+          System.out.println(myInt);
+          double myDouble = myInt;
+          System.out.println(myDouble);
+
+          // maneira segura
+
+          String myStr = "10";
+          System.out.println(myStr);
+          int myInteger = Integer.parseInt(myStr);
+          System.out.println(myInteger);
+
+          String myStrg = String.valueOf(myInteger);
+          System.out.println(myStrg);
      }
 }
